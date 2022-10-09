@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.css">
+
+    <link rel="stylesheet" href="inde.css">
+</head>
+<body>
+    <div id="main">
+        <div id="part1">
+            <div  id="imgdiv">
+                <div data-scroll data-scroll-speed="-1.8" id="img"></div>
+            </div>
+        </div>
+        <div id="part2"></div>
+     
+        <div id="part4">
+            <div id="p4box">
+                  <div class="imgbox">
+                    <img src="https://assets.website-files.com/6297497982f267a133b5ab4c/62d7fe810de7640cf0fcdff2_Tandem2_V2-web-8.webp" alt="">
+                  </div>
+                  <div class="imgbox">
+                    <img src="https://assets.website-files.com/6297497982f267a133b5ab4c/62e9326327e5007dc9d6d9d1_dam.webp" alt="">
+                  </div>
+                  <div class="imgbox">
+                    <img src="https://assets.website-files.com/6297497982f267a133b5ab4c/62bac4c3ffdd60d1c186d8a3_footer__6.webp" alt="">
+                  </div>
+                  <div class="imgbox">
+                    <img src="https://assets.website-files.com/6297497982f267a133b5ab4c/62bac4c3cb7efba7593857e3_footer__3.webp" alt="">
+                  </div>
+            </div>
+
+        </div>
+    </div>
+     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+     <script>
+        const scroll = new LocomotiveScroll({
+    el: document.querySelector('#main'),
+    smooth: true
+});
+     </script>
+</body>
+</html>
